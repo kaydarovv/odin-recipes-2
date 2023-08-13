@@ -1,9 +1,61 @@
-img {
-    width: 400px;
-    height: auto;
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffcd;
 }
 
 h1 {
+    border: medium solid #ffca2a;
     text-align: center;
-    background-color: bisque;
+    font-size: 48px;
+    margin: 10px 0px 40px;
+    color: #240b01;
+    padding-left: 40px;
+    width: 100%;
+    height: auto;
+}
+
+
+
+ul {
+    background-color: #ffeaa4;
+    list-style: none;
+    border: medium solid #ffca2a;
+    padding: 20px;
+    width: 500px;
+    padding: 20px 50px;
+    margin: 40px 500px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 2px #b07201;
+}
+
+.recipe {
+    font-size: 24px;
+    margin: 10px 0px 10px 0px;
+}
+
+.hero-image {
+    width: 500px;
+    height: auto;
+    margin: 0 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 2px #b07201;
+}
+
+.hero-image:hover {
+    transform: scale(1.05);
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: #240b01;
+}
+
+a:hover {
+    color: #b07201;
+    transform: scale(1.05);
 }
